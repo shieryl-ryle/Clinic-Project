@@ -15,15 +15,15 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 ">
-            <div>
-                <a href="/" wire:navigate>
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-                    <!-- <h1 class="text-blue-500">Clinic Portal</h1> -->
-                </a>
-            </div>
+        <div class="min-h-screen flex flex-col sm:justify-center items-center lg:items-end lg:pr-20 pt-6 sm:pt-0" style="background-image: url('{{ asset('image/bgimage.png') }}'); background-size: cover; background-position: center;">
 
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
+                <div>
+                    <a href="/" wire:navigate>
+                        <img src="{{ asset('image/logo.png') }}" alt="PLM Logo" class="w-64">
+                    </a>
+                    <h1 class="text-3xl font-semibold text-primary mt-3">Clinic Portal</h1>
+                </div>
                 {{ $slot }}
             </div>
         </div>

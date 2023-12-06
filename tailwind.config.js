@@ -14,6 +14,15 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'primary': '#2D349A',
+                'primary-dark': '#1f2472',
+                'secondary': '#AB830F',
+                'secondary-dark': '#C1A038',
+            },
+            backgroundImage: {
+                'plm-bldg': "url('/image/bgimage.png')",
+              },
         },
     },
 
