@@ -33,6 +33,9 @@ new class extends Component
                     <x-nav-link :href="route('home')" :active="request()->routeIs('home')" wire:navigate>
                         {{ __('Home') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('appointment')" :active="request()->routeIs('appointment')" wire:navigate>
+                        {{ __('Appointment') }}
+                    </x-nav-link>
                 </div>
             </div>
 
@@ -82,7 +85,10 @@ new class extends Component
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
             <x-responsive-nav-link :href="route('home')" :active="request()->routeIs('home')" wire:navigate>
-                {{ __('home') }}
+                {{ __('Home') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('appointment')" :active="request()->routeIs('appointment')" wire:navigate>
+                {{ __('Appointment') }}
             </x-responsive-nav-link>
         </div>
 
