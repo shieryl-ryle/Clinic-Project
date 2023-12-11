@@ -19,6 +19,9 @@ export default {
                 'primary-dark': '#1f2472',
                 'secondary': '#AB830F',
                 'secondary-dark': '#C1A038',
+                'secondary-light': '#C9AE5D',
+                'txt-gray': '#EFF0FF',
+                'txt-dark': '#797171',
             },
             backgroundImage: {
                 'plm-bldg': "url('/image/bgimage.png')",

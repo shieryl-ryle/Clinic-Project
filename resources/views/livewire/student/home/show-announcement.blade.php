@@ -14,43 +14,28 @@ new class extends Component {
         heading="Free Flu Shot"
         description="Get your free flu shot at the PLM Clinic and protect yourself from the flu virus." />
 
-    <div class="flex">
-        <p class="border-r-2 w-16 text-sm pr-4">Dec 12 2023</p>
-        <div class="pl-4 hover:text-secondary">
-            <h3 class="font-bold ">Wellness Program</h3>
-            <p class="text-sm">Join the PLM Clinic's wellness program for December 2023 and enjoy yoga classes, meditation sessions, nutrition workshops, and stress management tips.</p>
-        </div>
-    </div>
+        <x-modal-info
+        date="Dec 12 2023"
+        heading="Wellness Program"
+        description="Join the PLM Clinic's wellness program for December 2023 and enjoy yoga classes, meditation sessions, nutrition workshops, and stress management tips." />
 
-    <div class="flex">
-        <p class="border-r-2 w-16 text-sm pr-4">Jun 03 2023</p>
-        <div class="pl-4 hover:text-secondary">
-            <h3 class="font-bold ">Health Records Update</h3>
-            <p class="text-sm">Update your health records for the academic year 2023-2024 by bringing your latest medical and dental reports, immunization records, and health insurance cards to the PLM Clinic.</p>
-        </div>
-    </div>
+    <x-modal-info
+        date="Jan 05 2024"
+        heading="Health Records Update"
+        description="Update your health records for the academic year 2023-2024 by bringing your latest medical and dental reports, immunization records, and health insurance cards to the PLM Clinic." />
 
-    <div class="flex">
-        <p class="border-r-2 w-16 text-sm pr-4">Dec 1 2023</p>
-        <div class="pl-4 hover:text-secondary">
-            <h3 class="font-bold  ">10th Anniversary Celebration</h3>
-            <p class="text-sm">Celebrate the 10th anniversary of the PLM Clinic on December 1, 2023, and get a free health kit if you are one of the first 100 visitors.</p>
-        </div>
-    </div>
+    <x-modal-info
+        date="Jan 28 2024"
+        heading="10th Anniversary Celebration"
+        description="Celebrate the 10th anniversary of the PLM Clinic on December 1, 2023, and get a free health kit if you are one of the first 100 visitors." />
 
-    <div class="flex">
-        <p class="border-r-2 w-16 text-sm pr-4">Nov 20 2023</p>
-        <div class="pl-4 hover:text-secondary">
-            <h3 class="font-bold ">Online Seminar</h3>
-            <p class="text-sm">Learn more about the COVID-19 vaccine and its benefits by attending the PLM Clinic’s online seminar. Register [here] to join.</p>
-        </div>
-    </div>
+    <x-modal-info
+        date="Apr 04 2024"
+        heading="Online Seminar"
+        description="Learn more about the COVID-19 vaccine and its benefits by attending the PLM Clinic’s online seminar. Register [here] to join." />
 
-    <div class="flex">
-        <p class="border-r-2 w-16 text-sm pr-4">Nov 25 2023</p>
-        <div class="pl-4 hover:text-secondary">
-            <h3 class="font-bold">Blood Drive</h3>
-            <p class="text-sm">Donate blood and save lives at the PLM Clinic's blood drive. Sign up [here] to participate.</p>
-        </div>
-    </div>
+    <x-modal-info
+        date="Aug 10 2024"
+        heading="Blood Drive"
+        description="Donate blood and save lives at the PLM Clinic's blood drive. Sign up [here] to participate." />
 </div>
