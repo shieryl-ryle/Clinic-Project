@@ -27,11 +27,6 @@ class HomeController extends Controller
                 return view('nurse.nursehome');
             }
 
-            // if($userType=='employee')
-            // {
-            //     return view('employee.employeehome');
-            // }
-
             else if(($userType=='student'))
             {
                 return view('dashboard');

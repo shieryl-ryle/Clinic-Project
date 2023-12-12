@@ -21,6 +21,10 @@ Route::view('/', 'welcome');
 
 Route::get('/home',[HomeController::class,'index'])->name('home');
 
+Route::view('doctorhome', 'doctorhome')
+    ->middleware(['auth'])
+    ->name('doctorhome');
+
 Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
